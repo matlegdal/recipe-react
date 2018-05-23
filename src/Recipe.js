@@ -1,6 +1,4 @@
-import React, {
-    Component
-} from "react";
+import React, { Component } from "react";
 import "./Recipe.css";
 
 export default class Recipe extends Component {
@@ -15,7 +13,7 @@ export default class Recipe extends Component {
                     <img src={imgSrc} alt={title} />
                 </div>
                 <div className="recipe-card-content">
-                    <h2 className="recipe-card-title">Recipe {title}</h2>
+                    <h2 className="recipe-card-title">{title}</h2>
                     <h3>Ingredients:</h3>
                     <ul>
                         {ingredients}
